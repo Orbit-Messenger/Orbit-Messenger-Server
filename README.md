@@ -31,10 +31,11 @@ psql -U postgres -d orbitmessengerdb -f sql/createTables.sql
 ## BUILD SERVER
 its possible to run the runServer binary on any linux machine, but to build type
 ```
-cd src
+to build the server and not run:
 ./buildServer.py
-cd ..
-./runServer
+
+to build the server and run:
+./buildServer.py -r
 ```
 
 ## HTTP actions
